@@ -1,1 +1,10 @@
 
+import machine, ubinascii, time, math
+from machine import Pin, I2C
+from time import sleep
+from mpu6050 import read_mpu6050
+
+
+while True:
+ read_mpu6050()
+    
